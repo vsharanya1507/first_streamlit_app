@@ -34,6 +34,6 @@ finally:
 
     # streamlit.multiselect("Pick some fruits, or eat some Floating Rocks.", bleh.set_index('Fruit'))
 
-except Exception as f: 
-    import this
-    print(f)
+#except Exception as f: 
+    #import this
+    #print(f)
