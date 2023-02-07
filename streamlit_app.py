@@ -34,6 +34,9 @@ finally:
 
     # streamlit.multiselect("Pick some fruits, or eat some Floating Rocks.", bleh.set_index('Fruit'))
 
+my_fruit_list = pandas.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
+streamlit.dataframe(my_fruit_list)
+
 #except Exception as f: 
     #import this
     #print(f)
