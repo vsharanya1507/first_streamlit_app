@@ -15,14 +15,14 @@ blh = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fru
 pd = pandas.DataFrame(blh)
 default_fruit_list = ["Avocado", "Strawberries"]
 df = streamlit.dataframe(blh)
-try: `
+try:
         # // This does not work `
         # // per the documentation on teh Lesson 3 `
         # streamlit.multiselect("Pick some fruits, or eat some Floating Rocks.", list(bleh.index),['Avocado','Strawberries']) `
         # assert set(default_fruit_list).issubset(bleh.columns) `
         # // explicit list cast from single column required, set in var or in code `streamlit.dataframe(blh) `
 
-        df.multiselect("Pick some fruits.", list(blh['Fruit']), default_fruit_list) `
+        df.multiselect("Pick some fruits.", list(blh['Fruit']), default_fruit_list)
 
  except Exception as o:
         print(o) 
