@@ -24,9 +24,9 @@ try:
 
         df.multiselect("Pick some fruits.", list(blh['Fruit']), default_fruit_list)
 
- except Exception as o:
+except Exception as o:
         
-                print(o) 
+        print(o) 
 
 
  finally: 
