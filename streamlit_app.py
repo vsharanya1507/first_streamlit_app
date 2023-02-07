@@ -29,7 +29,7 @@ except Exception as o:
         print(o) 
 
 
-finally:
+#finally:
         
         print("Now download them and put them in your Head; if you consumed Silicon Fruits, you are in need of " "Chelation Therapy.") 
 
