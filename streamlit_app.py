@@ -28,8 +28,8 @@ except Exception as o:
         
         print(o) 
 
-
 finally: 
+        
         print("Now download them and put them in your Head; if you consumed Silicon Fruits, you are in need of " "Chelation Therapy.") 
 
     # streamlit.multiselect("Pick some fruits, or eat some Floating Rocks.", bleh.set_index('Fruit'))
