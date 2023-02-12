@@ -39,7 +39,7 @@ try:
     streamlit.error("Please select a fruit to get information.")
   else:
     #import requests
-    back_from_function = get_fruityvice_data
+    back_from_function = get_fruityvice_data(fruit_choice)
     #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
     # output it on screen as a table 
     streamlit.dataframe(back_from_function)
