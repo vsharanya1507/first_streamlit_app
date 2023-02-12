@@ -1,4 +1,3 @@
 #requirements.txt
 snowflake-conntector-python
 
-import snowflake.connector
